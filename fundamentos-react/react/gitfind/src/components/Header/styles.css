@@ -1,0 +1,17 @@
+/*styles.css dentro da pasta src/components/Header*/
+header {
+    width: 100%;
+    height: 52px;
+    background-color: #2D333B;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Inter, Roboto, Arial';
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
