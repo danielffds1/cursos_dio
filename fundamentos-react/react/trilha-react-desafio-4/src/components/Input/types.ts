@@ -1,3 +1,4 @@
+// types.ts dentro da pasta src/components/Input
 import { Control } from "react-hook-form";
 import { IFormLogin } from "../../pages/Login/types";
 

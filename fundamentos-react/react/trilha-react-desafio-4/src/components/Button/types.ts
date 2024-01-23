@@ -1,3 +1,4 @@
+//types.ts dentro da pasta src/components/Button
 import React from "react";
 
 export interface IButtonProps {

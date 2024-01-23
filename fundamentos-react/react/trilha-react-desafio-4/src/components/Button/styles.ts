@@ -1,3 +1,4 @@
+//styles.ts dentro da pasta src/components/Button
 import styled from 'styled-components';
 
 interface ButtonContainerProps extends React.ComponentProps<any> {

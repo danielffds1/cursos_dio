@@ -1,6 +1,5 @@
+//styles.ts dentro da pasta src/pages/Login
 import styled from 'styled-components';
-
-
 
 export const Container = styled.div`
     width: 100%; 

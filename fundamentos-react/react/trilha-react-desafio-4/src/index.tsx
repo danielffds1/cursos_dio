@@ -1,3 +1,4 @@
+// index.tsx dentro da pasta src
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./pages/Login";

@@ -1,29 +1,32 @@
 //index.js dentro da pasta src/pages/cadastro
 
-import React from "react";
-import { Header } from "../../components/Header";
-import { Input } from "../../components/Input";
-import { useForm } from "react-hook-form";
-import { MdEmail, MdLock } from 'react-icons/md'
+import React from 'react';
+import { Header } from '../../components/Header';
+import { Input } from '../../components/Input';
+import { useForm } from 'react-hook-form';
+import { MdEmail, MdLock } from 'react-icons/md';
 import { FaUser } from 'react-icons/fa';
-import { useNavigate } from "react-router-dom";
-import { yupResolver } from "@hookform/resolvers/yup"
-import * as yup from "yup"
-import { Button } from "../../components/Button";
-import { api } from '../../services/api'
+import { useNavigate } from 'react-router-dom';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from 'yup';
+import { Button } from '../../components/Button';
+import { api } from '../../services/api';
 import axios from 'axios';
 
-import { 
-    Column, 
-    Container, 
-    SubTitleCadastro, 
-    Title, 
-    Wrapper, 
-    TitleCadastro, 
-    Row, 
-    InformationText,
-    FazerLogin
-} from "./styles";
+import {
+  Column,
+  Container,
+  SubTitleCadastro,
+  Title,
+  Wrapper,
+  TitleCadastro,
+  Row,
+  InformationText,
+  FazerLogin,
+} from './styles';
+
+import { IFormData } from './types'; // Importando as tipagens
+
 
 const Cadastro = () => {
 
@@ -63,8 +66,8 @@ const Cadastro = () => {
                         <SubTitleCadastro>Crie sua conta e make the change.</SubTitleCadastro>
                         <form >
                             <Input name="Nome" control={control} placeholder="Nome completo" leftIcon={<FaUser />} />
-                            <Input name="E-mail" error={errors?.email?.message} control={control} placeholder="E-mail" leftIcon={<MdEmail />} />
-                            <Input name="Senha" error={errors?.password?.message} control={control} placeholder="Senha" type="password" leftIcon={<MdLock />} />
+                            <Input name="E-mail" control={control} placeholder="E-mail" leftIcon={<MdEmail />} />
+                            <Input name="Senha" control={control} placeholder="Senha" type="password" leftIcon={<MdLock />} />
                             <Button title="Cadastrar" variant="secondary" type="submit" onClick={handleClickFeed}/>
                         </form>
 

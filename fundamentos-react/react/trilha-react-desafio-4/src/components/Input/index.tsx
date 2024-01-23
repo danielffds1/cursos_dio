@@ -1,3 +1,4 @@
+//index.tsx dentro da pasta src/components/Input
 import { InputContainer, ErrorMessage } from "./styles";
 import { IInputProps } from "././types";
 import { Controller } from "react-hook-form";

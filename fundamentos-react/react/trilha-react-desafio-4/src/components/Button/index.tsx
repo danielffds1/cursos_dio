@@ -1,3 +1,4 @@
+//index.tsx dentro da pasta src/components/Button
 import { ButtonContainer } from "./styles";
 import { IButtonProps } from "./types";
 
