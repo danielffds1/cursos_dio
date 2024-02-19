@@ -8,6 +8,8 @@ export const Layout = ( { children}: any) => {
     return (
         <Box 
           overflow='hidden'
+          height='100vh'
+          backgroundColor='#9413dc'
         >
             <Header />
             {children}
