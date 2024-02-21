@@ -1,5 +1,5 @@
 Desenvolvendo o Dio Bank
-desenvolvido por Nathally Souza
+Desenvolvido acompanhando os vídeos da formação Typescript da Digital Innovation One
 
 Projeto desenvolvido com React
 Tecnologias
