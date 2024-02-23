@@ -16,27 +16,34 @@ export class UserController {
         const user = request.body;
 
         if(!user.name){
-            return response.status(400).json({ message: 'Bad request! Nome obrigatório' });    
+            return response.status(400).json({ message: 'Bad request! Nome é obrigatório' });    
         }
 
         if(!user.email){
-            return response.status(400).json({ message: 'Bad request! Email obrigatório' });
+            return response.status(400).json({ message: 'Bad request! Email é obrigatório' });    
+        }
+
+        if(!user.password){
+            return response.status(400).json({ message: 'Bad request! Password é obrigatório' });    
         }
         
-        this.userService.createUser(user.name, user.email);
+        this.userService.createUser(user.name, user.email, user.password);
         return response.status(201).json({ message: 'User created' });
     }
 
-    getAllUsers = (request: Request, response: Response) => {
-
-        const users = this.userService.getAllUsers();
-        return response.status(200).json(users);
+    getUsers = async (request: Request, response: Response) => {
+        const { userId } = request.params;
+        const user = await this.userService.getUser(userId);
+        return response.status(200).json({
+            userId: user?.id_user,
+            name: user?.name,
+            email: user?.email
+        });
     }
 
     deleteUser = (request: Request, response: Response) => {
         const user = request.body;
         console.log('Deletando Usuário',user)
-        this.userService.deleteUser(user.email);
         return response.status(200).json({ message: 'User deleted' });
     }
 

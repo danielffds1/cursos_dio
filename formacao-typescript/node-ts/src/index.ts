@@ -1,10 +1,10 @@
 //index.ts dentro da pasta src
-
+import 'reflect-metadata'
 import express, { Request, Response, request } from 'express';
 import { router } from './routes';
+import { AppDataSource } from './database';
 
 const server = express();
-
 server.use(express.json());
 server.use(router)
 
