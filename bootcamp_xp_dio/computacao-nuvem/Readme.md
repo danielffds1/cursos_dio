@@ -1,3 +1,27 @@
+# Laboratório 2 - Características e pricípios de computação em nuvem
+
+Na computação em nuvem, **alta disponibilidade** refere-se à capacidade de um sistema ou serviço de permanecer operacional e acessível por longos períodos, minimizando interrupções. Isso é alcançado por meio de redundância e replicação de recursos, garantindo que, mesmo em caso de falhas, o serviço continue disponível.
+
+**Disponibilidade SLA (Service Level Agreement)** é um compromisso do provedor de nuvem de garantir um determinado nível de tempo de atividade para seus serviços, geralmente expresso em porcentagens (por exemplo, 99,99%). O SLA define as expectativas de desempenho e a compensação em caso de falha no cumprimento dessas garantias.
+
+**Escalabilidade** é a capacidade de um sistema de aumentar ou diminuir seus recursos conforme a demanda. Pode ser feita de forma **vertical** (aumentando os recursos de um único servidor) ou **horizontal** (adicionando mais servidores). Isso garante que o sistema possa lidar com diferentes cargas de trabalho de maneira eficiente.
+
+**Elasticidade** é uma forma dinâmica de escalabilidade, onde os recursos são ajustados automaticamente em tempo real, de acordo com as variações na carga de trabalho. A elasticidade permite que os sistemas aumentem ou diminuam a capacidade de forma ágil, mantendo o desempenho ideal e otimizando custos.
+
+**Confiabilidade** envolve a capacidade do sistema de funcionar de maneira consistente e correta. Na nuvem, isso é alcançado através de recursos redundantes, recuperação automática e failover, garantindo que os serviços permaneçam operacionais mesmo em caso de falhas.
+
+**Previsibilidade** refere-se à capacidade de prever o desempenho e os custos associados à execução de sistemas na nuvem. Ferramentas de monitoramento e controle permitem que as organizações planejem e ajustem os recursos conforme necessário, evitando surpresas em termos de desempenho e gastos.
+
+**Segurança** é a proteção de dados e recursos contra ameaças e acessos não autorizados. Na nuvem, isso inclui criptografia, controle de acesso, autenticação multifator e conformidade com regulamentações, garantindo que os dados estejam seguros e em conformidade com os padrões da indústria.
+
+**Governança** envolve a definição e a aplicação de políticas e processos para o gerenciamento dos recursos na nuvem. Inclui controle de custos, políticas de segurança, conformidade e gerenciamento de acesso para garantir que os recursos sejam usados de maneira eficiente e segura.
+
+**Gerenciamento** ou **Gerenciabilidade** refere-se à capacidade de monitorar, administrar e automatizar a infraestrutura e os serviços na nuvem. Ferramentas de gerenciamento centralizadas, como painéis de controle e automação de processos, permitem que as organizações mantenham a eficiência operacional e o desempenho dos sistemas.
+
+### Resumo prático do Laboratório 2
+Na computação em nuvem, como no Microsoft Azure, todos esses conceitos trabalham juntos para fornecer uma infraestrutura de TI robusta, eficiente e segura. A alta disponibilidade e os SLAs garantem que os serviços estejam quase sempre acessíveis. A escalabilidade e a elasticidade permitem que os sistemas se adaptem rapidamente à carga de trabalho variável. Confiabilidade e previsibilidade garantem operações consistentes e custo-efetivas. A segurança protege dados sensíveis, enquanto a governança e o gerenciamento mantêm o controle e a eficiência dos recursos na nuvem.
+
+# Laboratório 1 - Introdução ao Microsoft Azure
 # Nuvens Públicas, Privadas e Híbridas no Microsoft Azure
 
 ## Introdução
