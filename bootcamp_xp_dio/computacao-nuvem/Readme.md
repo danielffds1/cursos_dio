@@ -1,3 +1,27 @@
+# Laboratório 3 - Modelos de serviços na computação em nuvem
+# Modelos como Serviços (IaaS, PaaS, SaaS) na Azure
+
+**IaaS (Infrastructure as a Service)**: 
+Oferece infraestrutura de TI sob demanda, incluindo servidores, armazenamento e redes. Os usuários têm controle total sobre a configuração e manutenção dos sistemas operacionais e aplicativos. Exemplos no Azure: **Azure Virtual Machines**, **Azure Storage**.
+
+**PaaS (Platform as a Service)**:
+Fornece uma plataforma completa para desenvolvimento e implantação de aplicativos. O foco está no desenvolvimento de código, enquanto o provedor de nuvem gerencia a infraestrutura subjacente, incluindo sistemas operacionais e servidores. Exemplos no Azure: **Azure App Services**, **Azure SQL Database**.
+
+**SaaS (Software as a Service)**:
+Oferece aplicativos prontos para uso, totalmente gerenciados pelo provedor de nuvem. Os usuários acessam o software via internet e não precisam se preocupar com manutenção ou gerenciamento da infraestrutura. Exemplos no Azure: **Microsoft 365**, **Dynamics 365**.
+
+# Modelo de Responsabilidade Compartilhada na Computação em Nuvem
+
+**Responsabilidade do Provedor de Nuvem**:
+Inclui a gestão da infraestrutura física (servidores, armazenamento, rede) e, dependendo do modelo de serviço, a plataforma (sistemas operacionais, runtime) e o software. O provedor garante a segurança, a atualização e a disponibilidade da infraestrutura.
+
+**Responsabilidade do Cliente**:
+- **IaaS**: Gerencia sistemas operacionais, aplicativos e dados.
+- **PaaS**: Gerencia aplicativos e dados.
+- **SaaS**: Gerencia identidades, permissões de acesso e dados.
+
+O modelo de responsabilidade compartilhada ajuda a definir claramente as funções e responsabilidades de cada parte, evitando lacunas na segurança e na conformidade.
+
 # Laboratório 2 - Características e pricípios de computação em nuvem
 
 Na computação em nuvem, **alta disponibilidade** refere-se à capacidade de um sistema ou serviço de permanecer operacional e acessível por longos períodos, minimizando interrupções. Isso é alcançado por meio de redundância e replicação de recursos, garantindo que, mesmo em caso de falhas, o serviço continue disponível.
